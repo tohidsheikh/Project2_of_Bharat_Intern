@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>  
+
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <img src="netflix-logo.png" alt="Netflix Logo">
+        <ul>
+            <li>Home</li>
+            <li>TV Shows</li>
+            <li>Movies</li>
+            <li>New & Popular</li>
+            <!-- Add more navigation items as needed -->
+        </ul>
+        <!-- Language Switcher Dropdown -->
+        <div class="language-dropdown">
+            <button class="btn-dropdown">
+                <i class='fa fa-globe globe-icon'></i> English
+                <span class="arrow-icon">▼</span>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" class="active">
+                    <span class="globe-icon"></span> English
+                </a>
+                <a href="#">
+                    <span class="globe-icon"></span> हिंदी
+                </a>
+            </div>
+        </div>
+        <button class="btn">Sign In</button>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <div class="paragraph">
+                <p>Watch anywhere. Cancel anytime.</p>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+            <div class="middle">
+                
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email address">
+                <button class="btnstrt">Get Started ></button>
+            </div>           
+        </div>
+    </header>
+
+    <!-- Featured Movies Section -->
+    <section class="featured-movies">
+        <h2>Featured Movies</h2>
+        <div class="movie-list">
+            <!-- Movie cards go here -->
+            <!-- Example:
+            <div class="movie-card">
+                <img src="movie-poster.jpg" alt="Movie Title">
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Movie Categories Section -->
+    <section class="movie-categories">
+        <h2>Movie Categories</h2>
+        <div class="category-list">
+            <!-- Category cards go here -->
+            <!-- Example:
+            <div class="category-card">
+                <img src="category-icon.png" alt="Category Name">
+                <h3>Category Name</h3>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+</html>
